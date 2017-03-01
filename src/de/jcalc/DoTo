@@ -1,0 +1,29 @@
+HohePriorität:
+->Vollständiger Test
+->Rechenweg vereinfachen(?)
+->Genauigkeit erhöhen
+
+---------------------------------------------------------------------------------------------------------------
+
+MittlerePriorität:
+->Gleichungen mit Unbekannten(1-2)
+->Geometrie(Dreiecke,Vierecke,Vielecke)
+
+---------------------------------------------------------------------------------------------------------------
+
+NiedrigePriorität:
+->Rechnen in Bin,Octal und Hex
+->ClipCalc()
+  weniger Speicher belegung (Temp-Array) 
+  REM: Kann zur Zeit nur durch einen Andere Queue ersetzt werden!
+->Hilfemenü schreiben
+->Tastatur mit Buttons vergelichen(Bei BIN_Calculation keine 2,3... akzeptieren)
+->Verlauf
+
+
+---------------------------------------------------------------------------------------------------------------
+
+FallsMachbar:
+->Erkennen von Periodischenzahlen
+
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,56 @@
+
+0.1.0A
+*ArithmeticException bei periodischen Ergebnissen
+*Puffer für Rechnungsweg in JCalc
+*Ausgabe von solutionWay in TextArea
+
+--------------------------------------------------------------
+0.1.1A
+*Bug: zwei Strichrechnungen hintereinander
+*Bug: Potenz mit Punktrechnung
+*Bug: Doppelt gedrückte Aktionsbutton
+*Bug: Zahlen < 0 && > 1 konnten nicht erfasst werden
+*Bug: Weiterrechnen mit Ergebnis ergibt Falsche Ergebnisse
+*Bug(Not FIXED): Wenn zwei Klammern, die eine weiter Klammer beinhaltet, multipliziert oder dividiert werden,
+      wird das Ergebnis NULL zurückgegeben und verursacht einen Fehler! 
+
+*Add: Ein Zeichen löschen Button
+
+*Change(Performance): PrimCalc(), weniger Speicher belegung (Temp-Array)
+*Change(Performance): PrimCalc(), Variablen(Performed) clc0,clc1,clc2 auf clc zusammengelegt
+*Change(Performance): PrimCalc(), Variablen(Queues) powerless,pointless auf tempQueue zusammengelegt
+*Change(Performance): ClipCalc(), Zwischenvariable perf[] von Array auf Queue geändert
+*Change(Debug): PrimCalc(), Exception falls result NULL ist
+*Change(Performance/Readable): ClipCalc(), vereinfachung/Kürzung/Auslagerung von Code (20-30%)
+
+*Doc: Dokumentaion für primCalc() nachgezogen
+
+--------------------------------------------------------------
+0.1.2A
+*Bug(8): Wenn zwei Klammern, die eine weiter Klammer beinhaltet, multipliziert oder dividiert werden,
+      wird das Ergebnis NULL zurückgegeben und verursacht einen Fehler! 
+*Bug(9): Wenn ClipCloseTyp gleich CLIP_MORECLOSE ist, werden die Klammern nicht richtig zusammengestellt!
+*Bug(10): Wenn gleich in ein anderes zahlensystem gewechselt wird(txtDisplay=0), bleibt txtDisplay leer!
+
+*Add: KeyListener ->Arbeiten mit Tastatur nun möglich (1,2,3,4,5,6,7,8,9,0,+,-,*,/,(,),=,[ESC],[ENTER],.,,
+*Add: Menü: File(Clear,Save,Close), Parse(SimCalc,Equation)
+*Add: SimCalc Parsen +,-,*,/,(,),sqr,sqrt,sin,COS,tan,^
+*Add: Output speichern
+*Add: Umwandlung von Dec in Bin,Oct, Hex und umgekehrt
+*Add: Rechnen mit allen Zahlensystemen implementiert
+*Add: Multilanguate
+
+*Change: Auslagerung von EventListener (Übersichtlicher und vermeidung von doppelten Code bei KeyListener)
+*Change: Teilung vom Visueller darstellung und Ereignissen in 2 Klassen
+
+--------------------------------------------------------------
+0.1.3A
+
+*Bug(11): Offene Klammern, werden automatisch geschlossen
+*Bug(12): Hochrechnungen mit Klammern
+*Bug(13): Ergebnis weiterrechnen mit cos, tan...
+*Bug(14): Klammer am Term-Anfang
+----------------------------------------------------------------
+0.1.4A
+
+
